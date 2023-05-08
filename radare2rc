@@ -1,0 +1,12 @@
+pdb.autoload = 1
+pdb.extract = 1
+pdb.server = https://msdl.microsoft.com/download/symbols
+pdb.useragent = Microsoft-Symbol-Server/6.11.0001.402
+e scr.color=3
+eco zenburn
+e scr.utf8 = true
+e cfg.fortunes.type=tips
+
+#e asm.cmtright = 1
+#e asm.bytes = 0
+#e asm.cmtcol = 51
