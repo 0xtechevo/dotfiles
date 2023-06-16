@@ -5,7 +5,9 @@ pdb.useragent = Microsoft-Symbol-Server/6.11.0001.402
 e scr.color=3
 eco zenburn
 e scr.utf8 = true
-e cfg.fortunes.type=tips
+#e cfg.fortunes.type=tips
+#e bin.cache=true
+#e asm.pseudo = true
 
 #e asm.cmtright = 1
 #e asm.bytes = 0
