@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ln -s nvim $HOME/.config/nvim
-ln -s radare2 $HOME/.config/radare2/
+#ln -s $HOME/.config/nvim
+ln -s $HOME/.dotfiles/radare2 $HOME/.config/
