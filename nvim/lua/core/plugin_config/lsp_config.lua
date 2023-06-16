@@ -10,7 +10,7 @@ local on_attach = function(client)
 end
 
 
-nvim_lsp.lua_ls.setup{}
+nvim_lsp.lua_ls.setup({})
 
 -- nvim_lsp.rust_analyzer.setup({
 nvim_lsp.rust_analyzer.setup({
@@ -34,3 +34,5 @@ nvim_lsp.rust_analyzer.setup({
         }
     }
 })
+
+-- nvim.lsp.pylsp.setup({})
