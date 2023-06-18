@@ -31,7 +31,8 @@ local plugins = {
   'hrsh7th/cmp-path',
   'L3MON4D3/LuaSnip',
   'ixru/nvim-markdown',
-  'img-paste-devs/img-paste.vim'
+  -- 'img-paste-devs/img-paste.vim'
+  'ekickx/clipboard-image.nvim'
 }
 
 local opts = {}

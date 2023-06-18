@@ -35,4 +35,6 @@ nvim_lsp.rust_analyzer.setup({
     }
 })
 
+nvim_lsp.pylsp.setup({})
+
 -- nvim.lsp.pylsp.setup({})
