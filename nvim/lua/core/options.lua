@@ -8,7 +8,7 @@ vim.cmd('set relativenumber')
 vim.cmd('set number')
 vim.cmd('set cursorline')
 vim.cmd('set cursorlineopt=number')
-vim.cmd([[ autocmd BufRead,BufNewFile *.DRL set FileType=java]])
+vim.cmd('autocmd BufRead,BufNewFile *.drl set filetype=java')
 -- vim.cmd('setlocal spell spelllang=en_gb')
 vim.api.nvim_command([[au FileType *.md setl spellland=en_gb]])
 
