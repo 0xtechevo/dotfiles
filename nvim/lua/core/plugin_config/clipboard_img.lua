@@ -22,9 +22,9 @@ require('clipboard-image').setup {
     end,
     img_dir = {"img"}, -- Use table for nested dir (New feature form PR #20)
     img_dir_txt = "/img",
-    --img_handler = function(img) -- New feature from PR #22
-    --  local script = string.format('./image_compressor.sh "%s"', img.path)
-    --  os.execute(script)
-    -- end,
+    img_handler = function(img) -- New feature from PR #22
+      local script = string.format('optipng "%s"', img.path)
+      os.execute(script)
+     end,
   }
 }

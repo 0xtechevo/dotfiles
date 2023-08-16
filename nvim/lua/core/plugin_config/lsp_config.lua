@@ -37,4 +37,6 @@ nvim_lsp.rust_analyzer.setup({
 
 nvim_lsp.pylsp.setup({})
 
+nvim_lsp.marksman.setup({})
+
 -- nvim.lsp.pylsp.setup({})
